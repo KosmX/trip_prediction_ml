@@ -15,7 +15,7 @@ data class EdgeData constructor(
     val time: Instant,
 ) {
     companion object {
-        const val CSV_HEADER = "from,to,duration,vehicle_model,vehicle_type"
+        const val CSV_HEADER = "from,to,duration,vehicle_model,vehicle_type,time"
     }
 
     fun toCsvLine() = "$from,$to,${duration.inWholeSeconds},$vehicleModel,$vehicleType,$time"
