@@ -27,3 +27,10 @@ wget http://localhost:8080/timetable?route=56
 ```
 
 I've wasted way more time than should on fixing python types...
+
+## Goal
+Instead of trying to predict delay, (which can be problematic, as official timetables already account for some delay), I was trying to estimate the original timetables.  
+I really cannot work without types, nothing works, i have no clue why, strings should be strings, int should be insts, etc... 
+For, somehow I managed to make it work anyway.
+
+The API appears to have problems, I do not know why, that's not the model what's broken, but somehow the python logic.
