@@ -2,7 +2,8 @@ package dev.kosmx.endoftrip.graph
 
 data class Route(
     val direction: Boolean,
-    val stops: Array<String>
+    val stops: Array<String>,
+    val name: String,
 ) {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true

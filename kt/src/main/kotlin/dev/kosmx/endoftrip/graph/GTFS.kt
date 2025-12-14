@@ -15,6 +15,8 @@ object GTFS {
         // lines of shapes.txt
         val stops: Sequence<String>,
 
+        val routes: Map<String, String>, // route id => name
+
         private val tripsStream: AutoCloseable,
         private val stopsStream: AutoCloseable,
     ) : AutoCloseable {
@@ -30,8 +32,19 @@ object GTFS {
                 val trips = lineSequence(tripsStream, "trips.txt")
                 val shapes = lineSequence(stopsStream, "stop_times.txt")
 
+                val routes = zip().run {
+                    find(this, "routes.txt")
+                    val lines = bufferedReader().use { reader ->
+                        reader.readLines()
+                    }
+                    val routeIndex = lines[0].split(",").indexOf("route_id")
+                    val nameIndex = lines[0].split(",").indexOf("route_short_name")
+                    lines.asSequence().drop(1).map { it.split(",") }.associate { line ->
+                        line[routeIndex] to line[nameIndex]
+                    }
+                }
 
-                return GtfsData(trips, shapes, tripsStream, stopsStream)
+                return GtfsData(trips, shapes, routes, tripsStream, stopsStream)
             }
 
             private fun find(stream: ZipInputStream, entry: String): ZipEntry {
@@ -58,7 +71,7 @@ object GTFS {
         }
     }
 
-    public fun getRoutePoints(): Map<String, Route> {
+    fun getRoutePoints(): Map<String, Route> {
         val data = load()
 
         println("GTFS downloaded, start processing...")
@@ -106,12 +119,22 @@ object GTFS {
                     route.stops.sortBy { it.index }
                 }
 
-                trip to Route(route.direction, route.stops.map { it.stop }.toTypedArray())
+                trip to Route(
+                    route.direction,
+                    route.stops.map { it.stop }.toTypedArray(),
+                    gtfs.routes[route.routeId] ?: ""
+                )
             }.associate { it }.also {
                 println("GTFS graph ready")
             }
         }
     }
+
+    data class TripDescription(
+        val id: String,
+        // simple name, like 212
+        val name: String,
+    )
 
     data class RouteEntry(
         val routeId: String,
