@@ -5,12 +5,16 @@ import pandas as pd
 from model import Model
 import numpy as np
 import math
+from tqdm import tqdm
 
 # stop_id,stop_name,stop_lat,stop_lon,stop_code,location_type,location_sub_type,parent_station,wheelchair_boarding
 stops = pd.read_csv("/app/data/stops.txt")
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 if device == 'cuda':
     print(torch.cuda.get_device_name(torch.cuda.current_device()))
+
+
+device = 'cpu'
 
 
 def sinusoidal_positional_encoding(value: float, embed_dim: int) -> np.ndarray:
@@ -88,6 +92,7 @@ def create_embeds(df: pd.DataFrame) -> dict:
 
 import data
 
+
 def prepare_data(df: pd.DataFrame, embeddings_dict):
     """
     Merges the main dataframe with the embeddings dictionaries
@@ -116,6 +121,7 @@ def prepare_data(df: pd.DataFrame, embeddings_dict):
     df_merged['day_cos'] = np.cos(2 * np.pi * df_merged['time'].dt.dayofweek / 7)
     return df_merged
 
+
 def prepare_training_data(df: pd.DataFrame, embeddings_dict):
     df_merged = prepare_data(df, embeddings_dict)
 
@@ -133,6 +139,7 @@ def prepare_training_data(df: pd.DataFrame, embeddings_dict):
     y = df_merged['duration'].values.astype(np.float32).reshape(-1, 1)
 
     return X, y, len(feature_cols)
+
 
 def preare_prediction_data(df: pd.DataFrame, embeddings_dict):
     df_merged = prepare_data(df, embeddings_dict)
@@ -193,6 +200,7 @@ class DurationPredictor(nn.Module):
     def forward(self, x):
         return self.model(x)
 
+
 class MLPModel(Model):
     def __init__(self):
         self.model = None
@@ -219,12 +227,12 @@ class MLPModel(Model):
         # --- 4. TRAINING LOOP ---
         print(f"Starting training with input dimension: {input_dim}")
 
-        epochs = 40 # ??? probably waaaaaaay more
+        epochs = 40  # ??? probably waaaaaaay more
 
         model.train()
         for epoch in range(epochs):
-            epoch_loss = 0
-            for batch_X, batch_y in dataloader:
+            epoch_loss = 0.0
+            for batch_X, batch_y in tqdm(dataloader, desc=f"Epoch {epoch + 1}/{epochs}"):
                 # Zero gradients
                 optimizer.zero_grad()
                 X = batch_X.to(device)
@@ -242,19 +250,20 @@ class MLPModel(Model):
 
                 epoch_loss += loss.item()
 
-            if (epoch + 1) % 10 == 0:
-                print(f"Epoch {epoch + 1}/{epochs}, Loss: {epoch_loss / len(dataloader):.4f}")
+            avg_loss = epoch_loss / len(dataloader)
+            print(f"Epoch [{epoch + 1}/{epochs}], Loss: {avg_loss:.4f}")
+            if True:
                 # RMSE
                 with torch.no_grad():
                     model.eval()
                     test_predictions = model(test_tensor)
-                    rmse = torch.sqrt(criterion(test_predictions, torch.tensor(test['duration'].values.astype(np.float32).reshape(-1, 1)).to(device)))
+                    rmse = torch.sqrt(criterion(test_predictions, torch.tensor(
+                        test['duration'].values.astype(np.float32).reshape(-1, 1)).to(device)))
                     print(f"Test RMSE after epoch {epoch + 1}: {rmse.item():.4f}")
                     model.train()
 
-
     def predict(self, df: pd.DataFrame) -> pd.DataFrame:
-        model: DurationPredictor|None = self.model
+        model: DurationPredictor | None = self.model
         if model is None:
             raise RuntimeError("Model has not been trained yet.")
 
@@ -266,7 +275,6 @@ class MLPModel(Model):
             prediction = model(input_tensor).to('cpu')
             # Squeeze to get rid of the extra dimensions, and convert to standard Python float
             return prediction.squeeze().item()
-
 
 
 if __name__ == '__main__':
