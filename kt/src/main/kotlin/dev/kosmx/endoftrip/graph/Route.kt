@@ -4,6 +4,7 @@ data class Route(
     val direction: Boolean,
     val stops: Array<String>,
     val name: String,
+    val type: Int
 ) {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true

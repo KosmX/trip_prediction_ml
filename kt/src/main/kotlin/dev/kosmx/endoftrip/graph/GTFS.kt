@@ -15,7 +15,7 @@ object GTFS {
         // lines of shapes.txt
         val stops: Sequence<String>,
 
-        val routes: Map<String, String>, // route id => name
+        val routes: Map<String, Pair<String, Int>>, // route id => name
 
         private val tripsStream: AutoCloseable,
         private val stopsStream: AutoCloseable,
@@ -39,8 +39,9 @@ object GTFS {
                     }
                     val routeIndex = lines[0].split(",").indexOf("route_id")
                     val nameIndex = lines[0].split(",").indexOf("route_short_name")
+                    val typeIndex = lines[0].split(",").indexOf("route_type")
                     lines.asSequence().drop(1).map { it.split(",") }.associate { line ->
-                        line[routeIndex] to line[nameIndex]
+                        line[routeIndex] to (line[nameIndex] to line[typeIndex].toInt())
                     }
                 }
 
@@ -122,7 +123,8 @@ object GTFS {
                 trip to Route(
                     route.direction,
                     route.stops.map { it.stop }.toTypedArray(),
-                    gtfs.routes[route.routeId] ?: ""
+                    gtfs.routes[route.routeId]?.first ?: "",
+                    gtfs.routes[route.routeId]?.second ?: 0,
                 )
             }.associate { it }.also {
                 println("GTFS graph ready")

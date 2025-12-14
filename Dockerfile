@@ -7,6 +7,8 @@ RUN mkdir -p /app/data
 
 # download and extract prepared data
 RUN bash -c "cd /app/data && wget https://kosmx.dev/iPz39eAjSFnifskPLQoTHpMt/bkk.zip && unzip bkk.zip"
+COPY stops.txt /app/data/stops.txt
+COPY routes.json /app/data/routes.json
 
 # Install dependencies
 
@@ -28,3 +30,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Set the entrypoint to run the training script by default
 # You can override this with `docker run ... python src/04-inference.py` etc.
 # CMD ["/app/run.sh"]
+
+ENV HIP_VISIBLE_DEVICES="1"

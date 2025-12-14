@@ -1,0 +1,10 @@
+name: Dev env XDNA
+
+services:
+  pyenv:
+    build: .
+    devices:
+      - /dev/dri
+      - /dev/kfd
+    ports:
+      - "8080:8080"

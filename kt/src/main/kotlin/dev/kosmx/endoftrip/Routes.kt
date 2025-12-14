@@ -1,8 +1,10 @@
 package dev.kosmx.endoftrip
 
 import dev.kosmx.endoftrip.graph.GTFS
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonNames
 import java.nio.file.Path
 import kotlin.io.path.Path
 import kotlin.io.path.writeText
@@ -12,12 +14,15 @@ object Routes {
     data class RouteId(
         val name: String,
         val direction: Boolean,
+        val vehicleType: Int,
     )
 
     @Serializable
     data class RouteInfo(
         val name: String,
         val direction: Boolean,
+        @SerialName("route_type")
+        val routeType: Int,
         val stops: Array<String>,
     ) {
         override fun equals(other: Any?): Boolean {
@@ -53,10 +58,11 @@ object Routes {
         data.asSequence()
             .filter { it.value.name.isNotBlank() }
             .forEach { (tripId, route) ->
-                things.putIfAbsent(RouteId(route.name, route.direction), route.stops)
+                things.putIfAbsent(RouteId(route.name, route.direction, route.type), route.stops)
             }
 
-        val routes = things.entries.map { (key, value) -> RouteInfo(key.name, key.direction, value) }.toList()
+        val routes =
+            things.entries.map { (key, value) -> RouteInfo(key.name, key.direction, key.vehicleType, value) }.toList()
         Path("routes.json").writeText(json.encodeToString(routes))
 
     }

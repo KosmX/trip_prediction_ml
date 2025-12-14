@@ -2,6 +2,7 @@
     {
         "name": "48",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007884",
             "F01012",
@@ -26,6 +27,7 @@
     {
         "name": "48",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "008802",
             "F02029",
@@ -50,6 +52,7 @@
     {
         "name": "M1",
         "direction": true,
+        "route_type": 1,
         "stops": [
             "F02887",
             "F02696",
@@ -67,6 +70,7 @@
     {
         "name": "M1",
         "direction": false,
+        "route_type": 1,
         "stops": [
             "F00965",
             "F00963",
@@ -84,6 +88,7 @@
     {
         "name": "968",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03289",
             "F03450",
@@ -119,6 +124,7 @@
     {
         "name": "966",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009358",
             "009338",
@@ -151,6 +157,7 @@
     {
         "name": "966",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04015",
             "F01456",
@@ -187,6 +194,7 @@
     {
         "name": "120",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00800",
             "F00854",
@@ -210,6 +218,7 @@
     {
         "name": "120",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02604",
             "F02577",
@@ -234,6 +243,7 @@
     {
         "name": "219",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "056161",
             "008405",
@@ -250,6 +260,7 @@
     {
         "name": "219",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "064377",
             "100838",
@@ -267,6 +278,7 @@
     {
         "name": "47",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F04405",
             "F04397",
@@ -294,6 +306,7 @@
     {
         "name": "47",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007884",
             "F01012",
@@ -321,6 +334,7 @@
     {
         "name": "56A❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F02194",
             "F02149",
@@ -350,6 +364,7 @@
     {
         "name": "56A❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007975",
             "F00346",
@@ -379,6 +394,7 @@
     {
         "name": "934",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01028",
             "F00929",
@@ -414,6 +430,7 @@
     {
         "name": "934",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00460",
             "F00474",
@@ -448,6 +465,7 @@
     {
         "name": "7G",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008569",
             "F03291",
@@ -483,6 +501,7 @@
     {
         "name": "250B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "061222",
             "061227",
@@ -513,6 +532,7 @@
     {
         "name": "250B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007930",
             "F04400",
@@ -544,6 +564,7 @@
     {
         "name": "250",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "061222",
             "061227",
@@ -575,6 +596,7 @@
     {
         "name": "250",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009577",
             "F04383",
@@ -607,6 +629,7 @@
     {
         "name": "59",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F00408",
             "F00157",
@@ -628,6 +651,7 @@
     {
         "name": "59",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F02082",
             "F02097",
@@ -649,6 +673,7 @@
     {
         "name": "59A",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F02082",
             "F02097",
@@ -667,6 +692,7 @@
     {
         "name": "59A",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F02461",
             "F00024",
@@ -685,6 +711,7 @@
     {
         "name": "998",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011722",
             "F03610",
@@ -709,6 +736,7 @@
     {
         "name": "998",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03289",
             "F03450",
@@ -730,6 +758,7 @@
     {
         "name": "275",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "139873",
             "139872",
@@ -748,6 +777,7 @@
     {
         "name": "275",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009483",
             "009484",
@@ -764,6 +794,7 @@
     {
         "name": "23",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "008455",
             "F00969",
@@ -790,6 +821,7 @@
     {
         "name": "23",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01311",
             "F01309",
@@ -806,6 +838,7 @@
     {
         "name": "2",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01401",
             "F01397",
@@ -825,6 +858,7 @@
     {
         "name": "2",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "008455",
             "F00969",
@@ -844,6 +878,7 @@
     {
         "name": "202E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "088969",
             "040612",
@@ -863,6 +898,7 @@
     {
         "name": "202E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011723",
             "F03515",
@@ -898,6 +934,7 @@
     {
         "name": "60B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02465",
             "F00427",
@@ -921,6 +958,7 @@
     {
         "name": "60B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "096990",
             "048279",
@@ -943,6 +981,7 @@
     {
         "name": "24",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01401",
             "F01397",
@@ -961,6 +1000,7 @@
     {
         "name": "24",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01311",
             "F01309",
@@ -979,6 +1019,7 @@
     {
         "name": "79",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F01137",
             "091338",
@@ -996,6 +1037,7 @@
     {
         "name": "79",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "109728",
             "123405",
@@ -1021,6 +1063,7 @@
     {
         "name": "236",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03762",
             "F03765",
@@ -1060,6 +1103,7 @@
     {
         "name": "236",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "050185",
             "050173",
@@ -1088,6 +1132,7 @@
     {
         "name": "948",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008471",
             "F03631",
@@ -1116,6 +1161,7 @@
     {
         "name": "948",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04196",
             "F04338",
@@ -1168,6 +1214,7 @@
     {
         "name": "217E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01296",
             "F01300",
@@ -1195,6 +1242,7 @@
     {
         "name": "217E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03711",
             "F03704",
@@ -1222,6 +1270,7 @@
     {
         "name": "77",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F01316",
             "F02737",
@@ -1242,6 +1291,7 @@
     {
         "name": "77",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02806",
             "F02805",
@@ -1269,6 +1319,7 @@
     {
         "name": "146A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03286",
             "F03450",
@@ -1282,6 +1333,7 @@
     {
         "name": "49",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007884",
             "F01012",
@@ -1300,6 +1352,7 @@
     {
         "name": "49",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "007967",
             "F02039",
@@ -1318,6 +1371,7 @@
     {
         "name": "52",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01461",
             "F01458",
@@ -1341,6 +1395,7 @@
     {
         "name": "52",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F04081",
             "F04164",
@@ -1363,6 +1418,7 @@
     {
         "name": "142E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04017",
             "F03837",
@@ -1378,6 +1434,7 @@
     {
         "name": "142E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03879",
             "007923",
@@ -1393,6 +1450,7 @@
     {
         "name": "122E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "069664",
             "F00906",
@@ -1412,6 +1470,7 @@
     {
         "name": "122E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "011762",
             "009148",
@@ -1430,6 +1489,7 @@
     {
         "name": "126",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00859",
             "F00739",
@@ -1447,6 +1507,7 @@
     {
         "name": "12",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F00823",
             "F00818",
@@ -1464,6 +1525,7 @@
     {
         "name": "12",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F03028",
             "F03023",
@@ -1481,6 +1543,7 @@
     {
         "name": "28A",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01867",
             "F01594",
@@ -1512,6 +1575,7 @@
     {
         "name": "28A",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01298",
             "F01300",
@@ -1543,6 +1607,7 @@
     {
         "name": "28",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01298",
             "F01300",
@@ -1575,6 +1640,7 @@
     {
         "name": "28",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01808",
             "F01867",
@@ -1607,6 +1673,7 @@
     {
         "name": "37A",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01298",
             "F01300",
@@ -1627,6 +1694,7 @@
     {
         "name": "37A",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01620",
             "F01625",
@@ -1647,6 +1715,7 @@
     {
         "name": "157A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007977",
             "F00339",
@@ -1666,6 +1735,7 @@
     {
         "name": "157",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007977",
             "F00339",
@@ -1687,6 +1757,7 @@
     {
         "name": "157",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "044372",
             "072047",
@@ -1709,6 +1780,7 @@
     {
         "name": "157A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00387",
             "044375",
@@ -1730,6 +1802,7 @@
     {
         "name": "236A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03762",
             "F03765",
@@ -1766,6 +1839,7 @@
     {
         "name": "236A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03795",
             "F03796",
@@ -1790,6 +1864,7 @@
     {
         "name": "175",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03304",
             "F03303",
@@ -1810,6 +1885,7 @@
     {
         "name": "909",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00950",
             "F01014",
@@ -1853,6 +1929,7 @@
     {
         "name": "909",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03948",
             "F03950",
@@ -1896,6 +1973,7 @@
     {
         "name": "909A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00950",
             "F01014",
@@ -1923,6 +2001,7 @@
     {
         "name": "297",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "066711",
             "066712",
@@ -1936,6 +2015,7 @@
     {
         "name": "297",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "066722",
             "066719",
@@ -1948,6 +2028,7 @@
     {
         "name": "269",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "019316",
             "F03484",
@@ -1963,6 +2044,7 @@
     {
         "name": "269",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03445",
             "066688",
@@ -1977,6 +2059,7 @@
     {
         "name": "68",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03552",
             "F03551",
@@ -2013,6 +2096,7 @@
     {
         "name": "268",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03552",
             "F03551",
@@ -2048,6 +2132,7 @@
     {
         "name": "251A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04374",
             "061286",
@@ -2065,6 +2150,7 @@
     {
         "name": "251",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "061222",
             "061227",
@@ -2090,6 +2176,7 @@
     {
         "name": "251",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009577",
             "F04383",
@@ -2120,6 +2207,7 @@
     {
         "name": "251A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "061222",
             "061227",
@@ -2144,6 +2232,7 @@
     {
         "name": "251E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "081950",
             "083777",
@@ -2164,6 +2253,7 @@
     {
         "name": "251E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "061222",
             "F01901",
@@ -2182,6 +2272,7 @@
     {
         "name": "181",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01476",
             "F01479",
@@ -2197,6 +2288,7 @@
     {
         "name": "181",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01408",
             "F01471",
@@ -2221,6 +2313,7 @@
     {
         "name": "281",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008498",
             "F01479",
@@ -2260,6 +2353,7 @@
     {
         "name": "71",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04328",
             "F04182",
@@ -2272,6 +2366,7 @@
     {
         "name": "71",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "044637",
             "F04187",
@@ -2309,6 +2404,7 @@
     {
         "name": "152",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04328",
             "F04278",
@@ -2320,6 +2416,7 @@
     {
         "name": "152",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04208",
             "F04238",
@@ -2358,6 +2455,7 @@
     {
         "name": "980",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008921",
             "F03626",
@@ -2393,6 +2491,7 @@
     {
         "name": "980",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011723",
             "009685",
@@ -2428,6 +2527,7 @@
     {
         "name": "78",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F01131",
             "F01129",
@@ -2446,6 +2546,7 @@
     {
         "name": "78",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F00970",
             "F00939",
@@ -2463,6 +2564,7 @@
     {
         "name": "37",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01298",
             "F01300",
@@ -2492,6 +2594,7 @@
     {
         "name": "37",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01867",
             "F01594",
@@ -2521,6 +2624,7 @@
     {
         "name": "74",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F02713",
             "F02702",
@@ -2537,6 +2641,7 @@
     {
         "name": "74",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02908",
             "F02954",
@@ -2563,6 +2668,7 @@
     {
         "name": "M3",
         "direction": true,
+        "route_type": 1,
         "stops": [
             "F01543",
             "F01541",
@@ -2589,6 +2695,7 @@
     {
         "name": "M3",
         "direction": false,
+        "route_type": 1,
         "stops": [
             "F00913",
             "F00898",
@@ -2615,6 +2722,7 @@
     {
         "name": "101E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "007996",
             "F04457",
@@ -2635,6 +2743,7 @@
     {
         "name": "101E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061188",
             "008918",
@@ -2655,6 +2764,7 @@
     {
         "name": "50❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F03930",
             "F03899",
@@ -2681,6 +2791,7 @@
     {
         "name": "50❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F03791",
             "F03854",
@@ -2707,6 +2818,7 @@
     {
         "name": "70",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02919",
             "F02703",
@@ -2728,6 +2840,7 @@
     {
         "name": "70",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F00970",
             "F00939",
@@ -2749,6 +2862,7 @@
     {
         "name": "82A",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02758",
             "F02766",
@@ -2770,6 +2884,7 @@
     {
         "name": "82",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02758",
             "F02766",
@@ -2794,6 +2909,7 @@
     {
         "name": "82",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F02890",
             "F02902",
@@ -2816,6 +2932,7 @@
     {
         "name": "82A",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "008461",
             "008460",
@@ -2837,6 +2954,7 @@
     {
         "name": "134",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00642",
             "F00646",
@@ -2863,6 +2981,7 @@
     {
         "name": "134",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00619",
             "F00611",
@@ -2890,6 +3009,7 @@
     {
         "name": "96",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03147",
             "F03201",
@@ -2926,6 +3046,7 @@
     {
         "name": "296",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00642",
             "F00646",
@@ -2970,6 +3091,7 @@
     {
         "name": "296A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "077870",
             "F00739",
@@ -2988,6 +3110,7 @@
     {
         "name": "261E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "103897",
             "F03456",
@@ -3007,6 +3130,7 @@
     {
         "name": "923",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00460",
             "F00458",
@@ -3018,6 +3142,7 @@
     {
         "name": "923",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008471",
             "008095",
@@ -3091,6 +3216,7 @@
     {
         "name": "179",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009290",
             "F01411",
@@ -3121,6 +3247,7 @@
     {
         "name": "18❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F00408",
             "F00157",
@@ -3151,6 +3278,7 @@
     {
         "name": "18❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "008802",
             "F02029",
@@ -3181,6 +3309,7 @@
     {
         "name": "220",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00803",
             "F00787",
@@ -3192,6 +3321,7 @@
     {
         "name": "220",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00761",
             "F00752",
@@ -3213,6 +3343,7 @@
     {
         "name": "999",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03929",
             "044126",
@@ -3243,6 +3374,7 @@
     {
         "name": "999",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008921",
             "F03626",
@@ -3265,6 +3397,7 @@
     {
         "name": "50",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F03930",
             "F03899",
@@ -3291,6 +3424,7 @@
     {
         "name": "50",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F03791",
             "F03854",
@@ -3317,6 +3451,7 @@
     {
         "name": "60",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F02313",
             "F02315",
@@ -3333,6 +3468,7 @@
     {
         "name": "60",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F02330",
             "F02328",
@@ -3349,6 +3485,7 @@
     {
         "name": "950A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00803",
             "F00854",
@@ -3366,6 +3503,7 @@
     {
         "name": "950",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00803",
             "F00854",
@@ -3388,6 +3526,7 @@
     {
         "name": "M4",
         "direction": false,
+        "route_type": 1,
         "stops": [
             "056233",
             "056231",
@@ -3404,6 +3543,7 @@
     {
         "name": "M4",
         "direction": true,
+        "route_type": 1,
         "stops": [
             "056216",
             "056218",
@@ -3420,6 +3560,7 @@
     {
         "name": "121",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "106377",
             "F00813",
@@ -3445,6 +3586,7 @@
     {
         "name": "121",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008426",
             "F00739",
@@ -3469,6 +3611,7 @@
     {
         "name": "254E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03862",
             "022005",
@@ -3486,6 +3629,7 @@
     {
         "name": "255E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03862",
             "022005",
@@ -3507,6 +3651,7 @@
     {
         "name": "254E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "042933",
             "008500",
@@ -3524,6 +3669,7 @@
     {
         "name": "255E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "041209",
             "009042",
@@ -3545,6 +3691,7 @@
     {
         "name": "298",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "019316",
             "F03484",
@@ -3557,6 +3704,7 @@
     {
         "name": "298",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "139996",
             "139997",
@@ -3575,6 +3723,7 @@
     {
         "name": "124",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03008",
             "F03032",
@@ -3585,6 +3734,7 @@
     {
         "name": "125",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "043191",
             "F02854",
@@ -3622,6 +3772,7 @@
     {
         "name": "125",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03003",
             "F03005",
@@ -3657,6 +3808,7 @@
     {
         "name": "124",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03012",
             "F03011",
@@ -3691,6 +3843,7 @@
     {
         "name": "193E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038673",
             "F01545",
@@ -3705,6 +3858,7 @@
     {
         "name": "193E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03795",
             "F03796",
@@ -3721,6 +3875,7 @@
     {
         "name": "198",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008921",
             "F03626",
@@ -3776,6 +3931,7 @@
     {
         "name": "198",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03584",
             "F03599",
@@ -3832,6 +3988,7 @@
     {
         "name": "135",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009358",
             "009338",
@@ -3859,6 +4016,7 @@
     {
         "name": "183",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03711",
             "F03704",
@@ -3879,6 +4037,7 @@
     {
         "name": "183",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03808",
             "F03809",
@@ -3898,6 +4057,7 @@
     {
         "name": "964",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04703",
             "F04831",
@@ -3927,6 +4087,7 @@
     {
         "name": "963",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "031884",
             "F04828",
@@ -3950,6 +4111,7 @@
     {
         "name": "963",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007976",
             "F00339",
@@ -3972,6 +4134,7 @@
     {
         "name": "964",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007976",
             "F00339",
@@ -4001,6 +4164,7 @@
     {
         "name": "188E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009438",
             "009440",
@@ -4031,6 +4195,7 @@
     {
         "name": "188",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061275",
             "082617",
@@ -4070,6 +4235,7 @@
     {
         "name": "188",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009438",
             "009440",
@@ -4109,6 +4275,7 @@
     {
         "name": "188E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061275",
             "082617",
@@ -4139,6 +4306,7 @@
     {
         "name": "140A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04836",
             "F04713",
@@ -4170,6 +4338,7 @@
     {
         "name": "140",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "074495",
             "008323",
@@ -4215,6 +4384,7 @@
     {
         "name": "140A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02470",
             "F00023",
@@ -4246,6 +4416,7 @@
     {
         "name": "140B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008339",
             "F04725",
@@ -4271,6 +4442,7 @@
     {
         "name": "140",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02470",
             "F00023",
@@ -4320,6 +4492,7 @@
     {
         "name": "140B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008333",
             "008331",
@@ -4343,6 +4516,7 @@
     {
         "name": "172",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008317",
             "073473",
@@ -4364,6 +4538,7 @@
     {
         "name": "172",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "073471",
             "008325",
@@ -4378,6 +4553,7 @@
     {
         "name": "173",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "062604",
             "F04750",
@@ -4396,6 +4572,7 @@
     {
         "name": "173",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008322",
             "F04755",
@@ -4412,6 +4589,7 @@
     {
         "name": "272",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "007817",
             "048305",
@@ -4431,6 +4609,7 @@
     {
         "name": "272",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061274",
             "082617",
@@ -4451,6 +4630,7 @@
     {
         "name": "118",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00620",
             "F00611",
@@ -4476,6 +4656,7 @@
     {
         "name": "118",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00678",
             "075220",
@@ -4495,6 +4676,7 @@
     {
         "name": "130",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01317",
             "F01321",
@@ -4526,6 +4708,7 @@
     {
         "name": "130",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03193",
             "F03125",
@@ -4561,6 +4744,7 @@
     {
         "name": "240",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04835",
             "F04713",
@@ -4586,6 +4770,7 @@
     {
         "name": "240",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02198",
             "F02182",
@@ -4610,6 +4795,7 @@
     {
         "name": "16A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02469",
             "F00031",
@@ -4623,6 +4809,7 @@
     {
         "name": "16A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00073",
             "F00072",
@@ -4634,6 +4821,7 @@
     {
         "name": "116",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00073",
             "F00072",
@@ -4646,6 +4834,7 @@
     {
         "name": "116",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008087",
             "F00305",
@@ -4661,6 +4850,7 @@
     {
         "name": "13",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009105",
             "009104",
@@ -4700,6 +4890,7 @@
     {
         "name": "113",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04769",
             "F04768",
@@ -4729,6 +4920,7 @@
     {
         "name": "13",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008120",
             "F04457",
@@ -4768,6 +4960,7 @@
     {
         "name": "287",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008120",
             "F04457",
@@ -4805,6 +4998,7 @@
     {
         "name": "287",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008339",
             "F04713",
@@ -4841,6 +5035,7 @@
     {
         "name": "113",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008120",
             "F04457",
@@ -4871,6 +5066,7 @@
     {
         "name": "13A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008120",
             "F04457",
@@ -4894,6 +5090,7 @@
     {
         "name": "13A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04769",
             "F04768",
@@ -4916,6 +5113,7 @@
     {
         "name": "992",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03289",
             "F03338",
@@ -4950,6 +5148,7 @@
     {
         "name": "992",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009021",
             "009020",
@@ -4983,6 +5182,7 @@
     {
         "name": "51A",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01379",
             "F01382",
@@ -4996,6 +5196,7 @@
     {
         "name": "51A",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01342",
             "F01507",
@@ -5008,6 +5209,7 @@
     {
         "name": "51",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01379",
             "F01382",
@@ -5029,6 +5231,7 @@
     {
         "name": "51",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F04152",
             "F04131",
@@ -5059,6 +5262,7 @@
     {
         "name": "113A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008120",
             "F04457",
@@ -5080,6 +5284,7 @@
     {
         "name": "113A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04498",
             "F04493",
@@ -5100,6 +5305,7 @@
     {
         "name": "174",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02759",
             "009499",
@@ -5123,6 +5329,7 @@
     {
         "name": "174",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03304",
             "F03303",
@@ -5145,6 +5352,7 @@
     {
         "name": "107",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01314",
             "F01161",
@@ -5165,6 +5373,7 @@
     {
         "name": "107",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "071262",
             "F01985",
@@ -5185,6 +5394,7 @@
     {
         "name": "87A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061188",
             "082617",
@@ -5206,6 +5416,7 @@
     {
         "name": "187",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01880",
             "F01883",
@@ -5226,6 +5437,7 @@
     {
         "name": "187",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061188",
             "082617",
@@ -5245,6 +5457,7 @@
     {
         "name": "87",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061188",
             "082617",
@@ -5270,6 +5483,7 @@
     {
         "name": "87A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01880",
             "F01883",
@@ -5291,6 +5505,7 @@
     {
         "name": "87",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04393",
             "F04391",
@@ -5316,6 +5531,7 @@
     {
         "name": "35",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008967",
             "F04574",
@@ -5353,6 +5569,7 @@
     {
         "name": "36",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03776",
             "F03746",
@@ -5403,6 +5620,7 @@
     {
         "name": "36",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03776",
             "F03746",
@@ -5421,6 +5639,7 @@
     {
         "name": "148",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04226",
             "F04228",
@@ -5465,6 +5684,7 @@
     {
         "name": "148",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038671",
             "F03945",
@@ -5510,6 +5730,7 @@
     {
         "name": "161",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "011723",
             "F03475",
@@ -5522,6 +5743,7 @@
     {
         "name": "161",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03482",
             "F03490",
@@ -5562,6 +5784,7 @@
     {
         "name": "161A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008025",
             "F01780",
@@ -5591,6 +5814,7 @@
     {
         "name": "161A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011726",
             "F03594",
@@ -5619,6 +5843,7 @@
     {
         "name": "83",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F01529",
             "008287",
@@ -5640,6 +5865,7 @@
     {
         "name": "83",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F00923",
             "F01007",
@@ -5658,6 +5884,7 @@
     {
         "name": "72",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F01186",
             "F01223",
@@ -5689,6 +5916,7 @@
     {
         "name": "72",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02724",
             "F02718",
@@ -5722,6 +5950,7 @@
     {
         "name": "73",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "118346",
             "F01029",
@@ -5749,6 +5978,7 @@
     {
         "name": "73",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F01661",
             "F01647",
@@ -5774,6 +6004,7 @@
     {
         "name": "M2",
         "direction": false,
+        "route_type": 1,
         "stops": [
             "F00094",
             "F02481",
@@ -5791,6 +6022,7 @@
     {
         "name": "M2",
         "direction": true,
+        "route_type": 1,
         "stops": [
             "F01749",
             "F01742",
@@ -5808,6 +6040,7 @@
     {
         "name": "931",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00195",
             "F00201",
@@ -5841,6 +6074,7 @@
     {
         "name": "931A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00950",
             "F01012",
@@ -5864,6 +6098,7 @@
     {
         "name": "931",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01027",
             "F00934",
@@ -5903,6 +6138,7 @@
     {
         "name": "990",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011725",
             "F03594",
@@ -5983,6 +6219,7 @@
     {
         "name": "990",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01752",
             "F01780",
@@ -6038,6 +6275,7 @@
     {
         "name": "80",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F01738",
             "F02929",
@@ -6060,6 +6298,7 @@
     {
         "name": "80",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02764",
             "F02768",
@@ -6088,6 +6327,7 @@
     {
         "name": "57",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007977",
             "F00339",
@@ -6112,6 +6352,7 @@
     {
         "name": "257",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007976",
             "F00339",
@@ -6136,6 +6377,7 @@
     {
         "name": "46",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03164",
             "F03158",
@@ -6191,6 +6433,7 @@
     {
         "name": "46",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009137",
             "009139",
@@ -6214,6 +6457,7 @@
     {
         "name": "146",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03164",
             "F03158",
@@ -6261,6 +6505,7 @@
     {
         "name": "960",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02199",
             "008041",
@@ -6298,6 +6543,7 @@
     {
         "name": "960",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00679",
             "F00524",
@@ -6312,6 +6558,7 @@
     {
         "name": "150",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "007997",
             "F04455",
@@ -6356,6 +6603,7 @@
     {
         "name": "150",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008918",
             "009546",
@@ -6376,6 +6624,7 @@
     {
         "name": "150B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02000",
             "009570",
@@ -6422,6 +6671,7 @@
     {
         "name": "150B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "007997",
             "F04455",
@@ -6468,6 +6718,7 @@
     {
         "name": "144",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03228",
             "F03343",
@@ -6492,6 +6743,7 @@
     {
         "name": "144",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02761",
             "F02766",
@@ -6510,6 +6762,7 @@
     {
         "name": "244",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03341",
             "F03245",
@@ -6530,6 +6783,7 @@
     {
         "name": "244",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02762",
             "009500",
@@ -6548,6 +6802,7 @@
     {
         "name": "217",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01800",
             "F01653",
@@ -6577,6 +6832,7 @@
     {
         "name": "217",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009208",
             "F03704",
@@ -6605,6 +6861,7 @@
     {
         "name": "185",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01800",
             "F01653",
@@ -6621,6 +6878,7 @@
     {
         "name": "185",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01704",
             "F01845",
@@ -6644,6 +6902,7 @@
     {
         "name": "940",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02196",
             "F02181",
@@ -6672,6 +6931,7 @@
     {
         "name": "940",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04835",
             "F04713",
@@ -6720,6 +6980,7 @@
     {
         "name": "972B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02196",
             "F02181",
@@ -6777,6 +7038,7 @@
     {
         "name": "972",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "062604",
             "F04750",
@@ -6818,6 +7080,7 @@
     {
         "name": "972",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02196",
             "F02181",
@@ -6875,6 +7138,7 @@
     {
         "name": "40",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "103053",
             "F04713",
@@ -6897,6 +7161,7 @@
     {
         "name": "40",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061275",
             "082617",
@@ -6919,6 +7184,7 @@
     {
         "name": "40B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "103053",
             "F04725",
@@ -6941,6 +7207,7 @@
     {
         "name": "88",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061275",
             "082617",
@@ -7004,6 +7271,7 @@
     {
         "name": "88",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008120",
             "F04457",
@@ -7066,6 +7334,7 @@
     {
         "name": "88A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "007817",
             "048305",
@@ -7105,6 +7374,7 @@
     {
         "name": "88A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061275",
             "082617",
@@ -7146,6 +7416,7 @@
     {
         "name": "40B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061275",
             "082617",
@@ -7169,6 +7440,7 @@
     {
         "name": "40E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "103053",
             "F04713",
@@ -7185,6 +7457,7 @@
     {
         "name": "40E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061275",
             "082617",
@@ -7201,6 +7474,7 @@
     {
         "name": "973",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04507",
             "F04506",
@@ -7272,6 +7546,7 @@
     {
         "name": "973A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01016",
             "F01170",
@@ -7298,6 +7573,7 @@
     {
         "name": "973A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01314",
             "F01161",
@@ -7329,6 +7605,7 @@
     {
         "name": "973",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03147",
             "F03201",
@@ -7360,6 +7637,7 @@
     {
         "name": "161E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011725",
             "F03594",
@@ -7373,6 +7651,7 @@
     {
         "name": "161E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "011723",
             "F03475",
@@ -7385,6 +7664,7 @@
     {
         "name": "941",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02196",
             "F02181",
@@ -7449,6 +7729,7 @@
     {
         "name": "941",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "007996",
             "F04457",
@@ -7508,6 +7789,7 @@
     {
         "name": "197",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "019313",
             "F03507",
@@ -7526,6 +7808,7 @@
     {
         "name": "262",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011726",
             "F03594",
@@ -7557,6 +7840,7 @@
     {
         "name": "162",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008379",
             "F01653",
@@ -7604,6 +7888,7 @@
     {
         "name": "162",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "061379",
             "009729",
@@ -7651,6 +7936,7 @@
     {
         "name": "262",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "011723",
             "F03475",
@@ -7669,6 +7955,7 @@
     {
         "name": "194",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01459",
             "F03924",
@@ -7691,6 +7978,7 @@
     {
         "name": "194",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "056189",
             "F03786",
@@ -7716,6 +8004,7 @@
     {
         "name": "194B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01459",
             "F03924",
@@ -7740,6 +8029,7 @@
     {
         "name": "194B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03678",
             "F03628",
@@ -7767,6 +8057,7 @@
     {
         "name": "25",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00806",
             "F00862",
@@ -7796,6 +8087,7 @@
     {
         "name": "25",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02884",
             "F02898",
@@ -7824,6 +8116,7 @@
     {
         "name": "101B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008922",
             "008952",
@@ -7848,6 +8141,7 @@
     {
         "name": "101B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061188",
             "061234",
@@ -7865,6 +8159,7 @@
     {
         "name": "108E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02228",
             "F02071",
@@ -7902,6 +8197,7 @@
     {
         "name": "108E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009376",
             "F03158",
@@ -7941,6 +8237,7 @@
     {
         "name": "93A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038686",
             "F03945",
@@ -7970,6 +8267,7 @@
     {
         "name": "132E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038686",
             "F03945",
@@ -7984,6 +8282,7 @@
     {
         "name": "132E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03620",
             "F03621",
@@ -8000,6 +8299,7 @@
     {
         "name": "93A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03699",
             "F03697",
@@ -8031,6 +8331,7 @@
     {
         "name": "93",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03870",
             "100605",
@@ -8065,6 +8366,7 @@
     {
         "name": "93",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038686",
             "F03945",
@@ -8096,6 +8398,7 @@
     {
         "name": "42",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01461",
             "F03926",
@@ -8109,6 +8412,7 @@
     {
         "name": "42",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F04039",
             "F04004",
@@ -8122,6 +8426,7 @@
     {
         "name": "102",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "078004",
             "F02335",
@@ -8137,6 +8442,7 @@
     {
         "name": "102",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02291",
             "F02425",
@@ -8161,6 +8467,7 @@
     {
         "name": "138",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007998",
             "F04455",
@@ -8186,6 +8493,7 @@
     {
         "name": "17",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F00568",
             "F00590",
@@ -8228,6 +8536,7 @@
     {
         "name": "17",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "008802",
             "F02029",
@@ -8271,6 +8580,7 @@
     {
         "name": "19",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F00568",
             "F00590",
@@ -8301,6 +8611,7 @@
     {
         "name": "19",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "007967",
             "F02039",
@@ -8332,6 +8643,7 @@
     {
         "name": "908",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03287",
             "F03338",
@@ -8413,6 +8725,7 @@
     {
         "name": "908A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02198",
             "F02181",
@@ -8492,6 +8805,7 @@
     {
         "name": "908",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01016",
             "F01170",
@@ -8559,6 +8873,7 @@
     {
         "name": "151",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04364",
             "F04362",
@@ -8603,6 +8918,7 @@
     {
         "name": "151",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01803",
             "F01640",
@@ -8643,6 +8959,7 @@
     {
         "name": "10",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008164",
             "F01779",
@@ -8660,6 +8977,7 @@
     {
         "name": "53",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009667",
             "009570",
@@ -8685,6 +9003,7 @@
     {
         "name": "53",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02274",
             "F02275",
@@ -8711,6 +9030,7 @@
     {
         "name": "4",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01998",
             "F01992",
@@ -8736,6 +9056,7 @@
     {
         "name": "4",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F02477",
             "F00308",
@@ -8761,6 +9082,7 @@
     {
         "name": "6",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F02477",
             "F00308",
@@ -8786,6 +9108,7 @@
     {
         "name": "6",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "009220",
             "F02153",
@@ -8811,6 +9134,7 @@
     {
         "name": "5",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03033",
             "F03034",
@@ -8862,6 +9186,7 @@
     {
         "name": "5",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "048471",
             "F00281",
@@ -8915,6 +9240,7 @@
     {
         "name": "7E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009376",
             "F03158",
@@ -8930,6 +9256,7 @@
     {
         "name": "7E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008782",
             "F01164",
@@ -8945,6 +9272,7 @@
     {
         "name": "31",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02755",
             "F02787",
@@ -8963,6 +9291,7 @@
     {
         "name": "31",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03297",
             "F03298",
@@ -8988,6 +9317,7 @@
     {
         "name": "154",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02227",
             "F02067",
@@ -9006,6 +9336,7 @@
     {
         "name": "154",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "071262",
             "F01985",
@@ -9034,6 +9365,7 @@
     {
         "name": "153",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02227",
             "F02067",
@@ -9079,6 +9411,7 @@
     {
         "name": "153",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "062607",
             "062608",
@@ -9120,6 +9453,7 @@
     {
         "name": "136",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03765",
             "F03761",
@@ -9137,6 +9471,7 @@
     {
         "name": "136",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038686",
             "F03945",
@@ -9152,6 +9487,7 @@
     {
         "name": "67",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03595",
             "F03554",
@@ -9181,6 +9517,7 @@
     {
         "name": "67",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008029",
             "009322",
@@ -9205,6 +9542,7 @@
     {
         "name": "123A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008967",
             "F04574",
@@ -9232,6 +9570,7 @@
     {
         "name": "123A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008490",
             "F01456",
@@ -9258,6 +9597,7 @@
     {
         "name": "123",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008490",
             "F01456",
@@ -9288,6 +9628,7 @@
     {
         "name": "123",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "087373",
             "044388",
@@ -9318,6 +9659,7 @@
     {
         "name": "147",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008697",
             "F00793",
@@ -9333,6 +9675,7 @@
     {
         "name": "170",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00805",
             "F00854",
@@ -9355,6 +9698,7 @@
     {
         "name": "170",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02995",
             "F02998",
@@ -9378,6 +9722,7 @@
     {
         "name": "270",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02995",
             "F02998",
@@ -9404,6 +9749,7 @@
     {
         "name": "270",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00805",
             "F00854",
@@ -9428,6 +9774,7 @@
     {
         "name": "147",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00715",
             "F00711",
@@ -9449,6 +9796,7 @@
     {
         "name": "59B",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007975",
             "F00346",
@@ -9480,6 +9828,7 @@
     {
         "name": "59B",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F02082",
             "F02097",
@@ -9511,6 +9860,7 @@
     {
         "name": "56A",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007975",
             "F00346",
@@ -9540,6 +9890,7 @@
     {
         "name": "56A",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F02194",
             "F02149",
@@ -9569,6 +9920,7 @@
     {
         "name": "61",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007975",
             "F00346",
@@ -9601,6 +9953,7 @@
     {
         "name": "61",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F02194",
             "F02197",
@@ -9633,6 +9986,7 @@
     {
         "name": "56",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007975",
             "F00346",
@@ -9653,6 +10007,7 @@
     {
         "name": "99",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01294",
             "F01163",
@@ -9687,6 +10042,7 @@
     {
         "name": "99",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04088",
             "F04087",
@@ -9698,6 +10054,7 @@
     {
         "name": "81",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F02882",
             "F02900",
@@ -9723,6 +10080,7 @@
     {
         "name": "81",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02758",
             "F02766",
@@ -9751,6 +10109,7 @@
     {
         "name": "76",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "009163",
             "F01172",
@@ -9772,6 +10131,7 @@
     {
         "name": "76",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F02511",
             "F02649",
@@ -9791,6 +10151,7 @@
     {
         "name": "176E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03584",
             "F03599",
@@ -9826,6 +10187,7 @@
     {
         "name": "176E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008028",
             "009322",
@@ -9858,6 +10220,7 @@
     {
         "name": "58",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02150",
             "009570",
@@ -9899,6 +10262,7 @@
     {
         "name": "58",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "103387",
             "103389",
@@ -9938,6 +10302,7 @@
     {
         "name": "231",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03041",
             "F03042",
@@ -9977,6 +10342,7 @@
     {
         "name": "131",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03226",
             "F03214",
@@ -9999,6 +10365,7 @@
     {
         "name": "231",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02756",
             "F02766",
@@ -10028,6 +10395,7 @@
     {
         "name": "131",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02756",
             "F02766",
@@ -10046,6 +10414,7 @@
     {
         "name": "231B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03041",
             "F03042",
@@ -10086,6 +10455,7 @@
     {
         "name": "97E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008021",
             "009543",
@@ -10106,6 +10476,7 @@
     {
         "name": "97E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03498",
             "F03575",
@@ -10134,6 +10505,7 @@
     {
         "name": "956",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "011725",
             "F03594",
@@ -10203,6 +10575,7 @@
     {
         "name": "956",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00356",
             "F00368",
@@ -10225,6 +10598,7 @@
     {
         "name": "943",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00678",
             "008410",
@@ -10249,6 +10623,7 @@
     {
         "name": "943",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009119",
             "008439",
@@ -10264,6 +10639,7 @@
     {
         "name": "104",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "048519",
             "F03034",
@@ -10298,6 +10674,7 @@
     {
         "name": "204",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "048519",
             "F03034",
@@ -10331,6 +10708,7 @@
     {
         "name": "104A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "048519",
             "F03034",
@@ -10364,6 +10742,7 @@
     {
         "name": "41",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F00568",
             "F00590",
@@ -10409,6 +10788,7 @@
     {
         "name": "41",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01885",
             "F01888",
@@ -10455,6 +10835,7 @@
     {
         "name": "75",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "008132",
             "008545",
@@ -10481,6 +10862,7 @@
     {
         "name": "75",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F02511",
             "F02649",
@@ -10507,6 +10889,7 @@
     {
         "name": "39",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00067",
             "F00036",
@@ -10521,6 +10904,7 @@
     {
         "name": "39",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02406",
             "F02488",
@@ -10542,6 +10926,7 @@
     {
         "name": "168E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008023",
             "F01628",
@@ -10565,6 +10950,7 @@
     {
         "name": "168E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03531",
             "F03561",
@@ -10595,6 +10981,7 @@
     {
         "name": "20E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00746",
             "F00739",
@@ -10623,6 +11010,7 @@
     {
         "name": "20E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009321",
             "F01159",
@@ -10651,6 +11039,7 @@
     {
         "name": "276E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008028",
             "009322",
@@ -10674,6 +11063,7 @@
     {
         "name": "276E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03452",
             "103897",
@@ -10712,6 +11102,7 @@
     {
         "name": "212",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01515",
             "009179",
@@ -10747,6 +11138,7 @@
     {
         "name": "212",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "110322",
             "F02450",
@@ -10781,6 +11173,7 @@
     {
         "name": "164B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007976",
             "F00339",
@@ -10813,6 +11206,7 @@
     {
         "name": "164",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04703",
             "F04831",
@@ -10842,6 +11236,7 @@
     {
         "name": "64B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "073308",
             "044603",
@@ -10870,6 +11265,7 @@
     {
         "name": "64B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04707",
             "F04705",
@@ -10881,6 +11277,7 @@
     {
         "name": "64A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04706",
             "F04705",
@@ -10905,6 +11302,7 @@
     {
         "name": "264",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007976",
             "F00339",
@@ -10930,6 +11328,7 @@
     {
         "name": "164B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04703",
             "F04831",
@@ -10962,6 +11361,7 @@
     {
         "name": "64A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007976",
             "F00339",
@@ -10986,6 +11386,7 @@
     {
         "name": "64",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007976",
             "F00339",
@@ -11015,6 +11416,7 @@
     {
         "name": "64",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "044601",
             "073308",
@@ -11044,6 +11446,7 @@
     {
         "name": "264",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04703",
             "F04831",
@@ -11069,6 +11472,7 @@
     {
         "name": "164",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007976",
             "F00339",
@@ -11098,6 +11502,7 @@
     {
         "name": "169E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "011723",
             "F03475",
@@ -11125,6 +11530,7 @@
     {
         "name": "169E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04593",
             "F04644",
@@ -11157,6 +11563,7 @@
     {
         "name": "44",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03341",
             "F03245",
@@ -11180,6 +11587,7 @@
     {
         "name": "44",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02763",
             "009322",
@@ -11198,6 +11606,7 @@
     {
         "name": "26",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01023",
             "F00929",
@@ -11217,6 +11626,7 @@
     {
         "name": "26",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02581",
             "F02602",
@@ -11237,6 +11647,7 @@
     {
         "name": "32",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008024",
             "F01756",
@@ -11263,6 +11674,7 @@
     {
         "name": "32",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02605",
             "F02677",
@@ -11288,6 +11700,7 @@
     {
         "name": "56",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F04405",
             "F04397",
@@ -11331,6 +11744,7 @@
     {
         "name": "191",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "049903",
             "F00227",
@@ -11348,6 +11762,7 @@
     {
         "name": "91",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009174",
             "F00427",
@@ -11375,6 +11790,7 @@
     {
         "name": "191",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01028",
             "F00929",
@@ -11386,6 +11802,7 @@
     {
         "name": "91",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01028",
             "F00929",
@@ -11413,6 +11830,7 @@
     {
         "name": "291",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02381",
             "F02383",
@@ -11441,6 +11859,7 @@
     {
         "name": "291",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01028",
             "F00929",
@@ -11469,6 +11888,7 @@
     {
         "name": "182A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03633",
             "F03685",
@@ -11491,6 +11911,7 @@
     {
         "name": "182A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038678",
             "F03944",
@@ -11513,6 +11934,7 @@
     {
         "name": "221",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02268",
             "F02271",
@@ -11542,6 +11964,7 @@
     {
         "name": "221",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02473",
             "F00023",
@@ -11571,6 +11994,7 @@
     {
         "name": "21",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02473",
             "F00023",
@@ -11594,6 +12018,7 @@
     {
         "name": "21",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "110322",
             "F02450",
@@ -11617,6 +12042,7 @@
     {
         "name": "21A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02473",
             "F00023",
@@ -11635,6 +12061,7 @@
     {
         "name": "21A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02458",
             "F02441",
@@ -11653,6 +12080,7 @@
     {
         "name": "133E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04507",
             "F04506",
@@ -11699,6 +12127,7 @@
     {
         "name": "133E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04507",
             "F04506",
@@ -11736,6 +12165,7 @@
     {
         "name": "159",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04327",
             "F04278",
@@ -11752,6 +12182,7 @@
     {
         "name": "280B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "064075",
             "064170",
@@ -11792,6 +12223,7 @@
     {
         "name": "38A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04653",
             "037747",
@@ -11817,6 +12249,7 @@
     {
         "name": "38",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04332",
             "F04318",
@@ -11845,6 +12278,7 @@
     {
         "name": "280",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "064075",
             "064170",
@@ -11877,6 +12311,7 @@
     {
         "name": "238",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "064170",
             "064175",
@@ -11919,6 +12354,7 @@
     {
         "name": "278",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04332",
             "F04318",
@@ -11942,6 +12378,7 @@
     {
         "name": "280",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008651",
             "F04266",
@@ -11953,6 +12390,7 @@
     {
         "name": "279",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008651",
             "F04266",
@@ -11964,6 +12402,7 @@
     {
         "name": "279",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "064316",
             "064317",
@@ -11992,6 +12431,7 @@
     {
         "name": "279B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008651",
             "F04266",
@@ -12027,6 +12467,7 @@
     {
         "name": "238",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "064170",
             "064175",
@@ -12043,6 +12484,7 @@
     {
         "name": "280B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008651",
             "F04266",
@@ -12054,6 +12496,7 @@
     {
         "name": "907",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007897",
             "F02215",
@@ -12096,6 +12539,7 @@
     {
         "name": "907A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01016",
             "F01170",
@@ -12114,6 +12558,7 @@
     {
         "name": "907",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02833",
             "F02823",
@@ -12146,6 +12591,7 @@
     {
         "name": "63",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007978",
             "F00339",
@@ -12168,6 +12614,7 @@
     {
         "name": "63",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "031884",
             "F04828",
@@ -12191,6 +12638,7 @@
     {
         "name": "274",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "090963",
             "072606",
@@ -12211,6 +12659,7 @@
     {
         "name": "274",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "182813",
             "110369",
@@ -12231,6 +12680,7 @@
     {
         "name": "218",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00621",
             "F00613",
@@ -12261,6 +12711,7 @@
     {
         "name": "218",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "007942",
             "142155",
@@ -12295,6 +12746,7 @@
     {
         "name": "996A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00803",
             "F00854",
@@ -12345,6 +12797,7 @@
     {
         "name": "996A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008569",
             "F03291",
@@ -12400,6 +12853,7 @@
     {
         "name": "930",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008697",
             "F00784",
@@ -12416,6 +12870,7 @@
     {
         "name": "930",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00717",
             "F00709",
@@ -12432,6 +12887,7 @@
     {
         "name": "996",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008569",
             "F03291",
@@ -12496,6 +12952,7 @@
     {
         "name": "996",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00803",
             "F00854",
@@ -12555,6 +13012,7 @@
     {
         "name": "92",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02690",
             "F03276",
@@ -12586,6 +13044,7 @@
     {
         "name": "92",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04584",
             "074909",
@@ -12617,6 +13076,7 @@
     {
         "name": "92A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04584",
             "F03285",
@@ -12646,6 +13106,7 @@
     {
         "name": "92A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02690",
             "F03276",
@@ -12677,6 +13138,7 @@
     {
         "name": "149",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00291",
             "F00293",
@@ -12695,6 +13157,7 @@
     {
         "name": "149",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "081565",
             "008087",
@@ -12712,6 +13175,7 @@
     {
         "name": "27",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02196",
             "008041",
@@ -12730,6 +13194,7 @@
     {
         "name": "27",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00009",
             "F00011",
@@ -12747,6 +13212,7 @@
     {
         "name": "22A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04788",
             "044381",
@@ -12775,6 +13241,7 @@
     {
         "name": "22A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02466",
             "F00155",
@@ -12802,6 +13269,7 @@
     {
         "name": "222",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009438",
             "009440",
@@ -12830,6 +13298,7 @@
     {
         "name": "222",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02466",
             "F00155",
@@ -12859,6 +13328,7 @@
     {
         "name": "22",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02466",
             "F00155",
@@ -12890,6 +13360,7 @@
     {
         "name": "22",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "044371",
             "061378",
@@ -12921,6 +13392,7 @@
     {
         "name": "98",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03442",
             "F03443",
@@ -12964,6 +13436,7 @@
     {
         "name": "98E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03528",
             "F03519",
@@ -12986,6 +13459,7 @@
     {
         "name": "98",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03468",
             "F03465",
@@ -12999,6 +13473,7 @@
     {
         "name": "98E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038682",
             "F01584",
@@ -13023,6 +13498,7 @@
     {
         "name": "106",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00486",
             "F00502",
@@ -13045,6 +13521,7 @@
     {
         "name": "34",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00644",
             "F00638",
@@ -13077,6 +13554,7 @@
     {
         "name": "34",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02579",
             "F02602",
@@ -13111,6 +13589,7 @@
     {
         "name": "106",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00611",
             "F00581",
@@ -13126,6 +13605,7 @@
     {
         "name": "950",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03711",
             "F03713",
@@ -13173,6 +13653,7 @@
     {
         "name": "214",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04476",
             "F04513",
@@ -13212,6 +13693,7 @@
     {
         "name": "114",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02202",
             "F02181",
@@ -13250,6 +13732,7 @@
     {
         "name": "114",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04476",
             "F04513",
@@ -13290,6 +13773,7 @@
     {
         "name": "213",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02202",
             "F02181",
@@ -13325,6 +13809,7 @@
     {
         "name": "213",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009447",
             "009448",
@@ -13365,6 +13850,7 @@
     {
         "name": "214",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02202",
             "F02181",
@@ -13402,6 +13888,7 @@
     {
         "name": "938",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04330",
             "F04278",
@@ -13427,6 +13914,7 @@
     {
         "name": "938",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "064085",
             "064087",
@@ -13439,6 +13927,7 @@
     {
         "name": "994B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008471",
             "008095",
@@ -13468,6 +13957,7 @@
     {
         "name": "994",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04648",
             "F04602",
@@ -13497,6 +13987,7 @@
     {
         "name": "994",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008471",
             "008095",
@@ -13518,6 +14009,7 @@
     {
         "name": "282E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03638",
             "F03857",
@@ -13535,6 +14027,7 @@
     {
         "name": "282E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03861",
             "F03799",
@@ -13561,6 +14054,7 @@
     {
         "name": "182",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03861",
             "F03799",
@@ -13594,6 +14088,7 @@
     {
         "name": "182",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038678",
             "F03944",
@@ -13627,6 +14122,7 @@
     {
         "name": "184",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03800",
             "F03725",
@@ -13659,6 +14155,7 @@
     {
         "name": "284E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038680",
             "F01545",
@@ -13683,6 +14180,7 @@
     {
         "name": "184",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038678",
             "F03944",
@@ -13715,6 +14213,7 @@
     {
         "name": "284E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03800",
             "F03725",
@@ -13740,6 +14239,7 @@
     {
         "name": "922",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02466",
             "F00412",
@@ -13777,6 +14277,7 @@
     {
         "name": "922",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04788",
             "044381",
@@ -13807,6 +14308,7 @@
     {
         "name": "922B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02466",
             "F00412",
@@ -13879,6 +14381,7 @@
     {
         "name": "66E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04523",
             "F04553",
@@ -13897,6 +14400,7 @@
     {
         "name": "66E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04015",
             "F01370",
@@ -13917,6 +14421,7 @@
     {
         "name": "66",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04015",
             "F01456",
@@ -13947,6 +14452,7 @@
     {
         "name": "66",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04523",
             "F04553",
@@ -13977,6 +14483,7 @@
     {
         "name": "66B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04015",
             "F01456",
@@ -14009,6 +14516,7 @@
     {
         "name": "66B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "042934",
             "009314",
@@ -14042,6 +14550,7 @@
     {
         "name": "155",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02464",
             "F00427",
@@ -14065,6 +14574,7 @@
     {
         "name": "155",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02380",
             "F02379",
@@ -14089,6 +14599,7 @@
     {
         "name": "156",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02464",
             "F00427",
@@ -14105,6 +14616,7 @@
     {
         "name": "156",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008736",
             "008737",
@@ -14122,6 +14634,7 @@
     {
         "name": "9",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01636",
             "F01653",
@@ -14160,6 +14673,7 @@
     {
         "name": "9",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01636",
             "F01653",
@@ -14183,6 +14697,7 @@
     {
         "name": "139",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02226",
             "F02071",
@@ -14206,6 +14721,7 @@
     {
         "name": "139",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02470",
             "F00023",
@@ -14229,6 +14745,7 @@
     {
         "name": "14",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F02615",
             "F01062",
@@ -14260,6 +14777,7 @@
     {
         "name": "14",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F00725",
             "F00905",
@@ -14291,6 +14809,7 @@
     {
         "name": "210",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02534",
             "F02541",
@@ -14332,6 +14851,7 @@
     {
         "name": "210",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "099678",
             "F02441",
@@ -14374,6 +14894,7 @@
     {
         "name": "105",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02534",
             "F02541",
@@ -14409,6 +14930,7 @@
     {
         "name": "105",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02294",
             "F02305",
@@ -14445,6 +14967,7 @@
     {
         "name": "33",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "069190",
             "F04490",
@@ -14482,6 +15005,7 @@
     {
         "name": "33",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008090",
             "F02156",
@@ -14519,6 +15043,7 @@
     {
         "name": "33A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008090",
             "F02156",
@@ -14534,6 +15059,7 @@
     {
         "name": "277",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02828",
             "F02854",
@@ -14568,6 +15094,7 @@
     {
         "name": "277",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008026",
             "F01770",
@@ -14601,6 +15128,7 @@
     {
         "name": "29",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "007974",
             "F00332",
@@ -14635,6 +15163,7 @@
     {
         "name": "29",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009692",
             "008521",
@@ -14666,6 +15195,7 @@
     {
         "name": "979A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04277",
             "F04280",
@@ -14703,6 +15233,7 @@
     {
         "name": "979",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04277",
             "F04280",
@@ -14759,6 +15290,7 @@
     {
         "name": "979A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00950",
             "F01014",
@@ -14798,6 +15330,7 @@
     {
         "name": "7",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01970",
             "F01969",
@@ -14846,6 +15379,7 @@
     {
         "name": "7",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03163",
             "F03158",
@@ -14892,6 +15426,7 @@
     {
         "name": "112",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011754",
             "166505",
@@ -14930,6 +15465,7 @@
     {
         "name": "110",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02292",
             "F02287",
@@ -14946,6 +15482,7 @@
     {
         "name": "110",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02439",
             "F02438",
@@ -14985,6 +15522,7 @@
     {
         "name": "112",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02439",
             "F02438",
@@ -15023,6 +15561,7 @@
     {
         "name": "11",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00273",
             "F00272",
@@ -15046,6 +15585,7 @@
     {
         "name": "11",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00066",
             "F00034",
@@ -15069,6 +15609,7 @@
     {
         "name": "2B",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F04081",
             "F04164",
@@ -15110,6 +15651,7 @@
     {
         "name": "2B",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01506",
             "F01341",
@@ -15136,6 +15678,7 @@
     {
         "name": "95",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008725",
             "F01321",
@@ -15164,6 +15707,7 @@
     {
         "name": "95",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008692",
             "F01870",
@@ -15191,6 +15735,7 @@
     {
         "name": "195",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008725",
             "F01321",
@@ -15233,6 +15778,7 @@
     {
         "name": "195",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011726",
             "F03594",
@@ -15273,6 +15819,7 @@
     {
         "name": "937",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00570",
             "F00566",
@@ -15288,6 +15835,7 @@
     {
         "name": "937",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00546",
             "F00552",
@@ -15309,6 +15857,7 @@
     {
         "name": "223E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "226468",
             "F04153",
@@ -15328,6 +15877,7 @@
     {
         "name": "223E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "121935",
             "F01007",
@@ -15348,6 +15898,7 @@
     {
         "name": "84E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04018",
             "F01370",
@@ -15375,6 +15926,7 @@
     {
         "name": "84E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009207",
             "009206",
@@ -15409,6 +15961,7 @@
     {
         "name": "89E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04018",
             "F01370",
@@ -15432,6 +15985,7 @@
     {
         "name": "89E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008553",
             "008552",
@@ -15464,6 +16018,7 @@
     {
         "name": "94E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04648",
             "F04602",
@@ -15488,6 +16043,7 @@
     {
         "name": "94E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04018",
             "F01370",
@@ -15505,6 +16061,7 @@
     {
         "name": "294E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04018",
             "F01370",
@@ -15529,6 +16086,7 @@
     {
         "name": "294E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04648",
             "F04602",
@@ -15561,6 +16119,7 @@
     {
         "name": "128",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00412",
             "F02335",
@@ -15579,6 +16138,7 @@
     {
         "name": "129",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00412",
             "F02335",
@@ -15594,6 +16154,7 @@
     {
         "name": "129",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00323",
             "F00325",
@@ -15615,6 +16176,7 @@
     {
         "name": "128",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02373",
             "F02371",
@@ -15633,6 +16195,7 @@
     {
         "name": "111",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00066",
             "F00034",
@@ -15672,6 +16235,7 @@
     {
         "name": "111",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00574",
             "F00577",
@@ -15710,6 +16274,7 @@
     {
         "name": "210B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02534",
             "F02541",
@@ -15756,6 +16321,7 @@
     {
         "name": "210B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "110322",
             "F02450",
@@ -15803,6 +16369,7 @@
     {
         "name": "916",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02464",
             "F02469",
@@ -15828,6 +16395,7 @@
     {
         "name": "916",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01171",
             "F01017",
@@ -15849,6 +16417,7 @@
     {
         "name": "16",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00985",
             "F00981",
@@ -15866,6 +16435,7 @@
     {
         "name": "16",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02469",
             "F00031",
@@ -15887,6 +16457,7 @@
     {
         "name": "178",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009230",
             "F00981",
@@ -15903,6 +16474,7 @@
     {
         "name": "216",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009230",
             "F00981",
@@ -15916,6 +16488,7 @@
     {
         "name": "216",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00073",
             "F00074",
@@ -15933,6 +16506,7 @@
     {
         "name": "178",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00100",
             "F00006",
@@ -15949,6 +16523,7 @@
     {
         "name": "62A",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F03103",
             "F03205",
@@ -15977,6 +16552,7 @@
     {
         "name": "62",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01298",
             "F01300",
@@ -16015,6 +16591,7 @@
     {
         "name": "62A",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01574",
             "F01646",
@@ -16043,6 +16620,7 @@
     {
         "name": "62",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F03103",
             "F03205",
@@ -16082,6 +16660,7 @@
     {
         "name": "69",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "008206",
             "F02879",
@@ -16103,6 +16682,7 @@
     {
         "name": "69",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F03149",
             "F03156",
@@ -16124,6 +16704,7 @@
     {
         "name": "8E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009376",
             "F03158",
@@ -16171,6 +16752,7 @@
     {
         "name": "8E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061278",
             "082617",
@@ -16219,6 +16801,7 @@
     {
         "name": "196",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03146",
             "F03201",
@@ -16256,6 +16839,7 @@
     {
         "name": "196A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03146",
             "F03201",
@@ -16279,6 +16863,7 @@
     {
         "name": "212B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01515",
             "009179",
@@ -16320,6 +16905,7 @@
     {
         "name": "212A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01515",
             "009179",
@@ -16350,6 +16936,7 @@
     {
         "name": "212A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02458",
             "F02441",
@@ -16379,6 +16966,7 @@
     {
         "name": "212B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02268",
             "F02271",
@@ -16419,6 +17007,7 @@
     {
         "name": "45",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03329",
             "F03331",
@@ -16429,6 +17018,7 @@
     {
         "name": "45",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03330",
             "F03327",
@@ -16456,6 +17046,7 @@
     {
         "name": "1",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "099634",
             "099632",
@@ -16494,6 +17085,7 @@
     {
         "name": "1",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F00569",
             "F00587",
@@ -16532,6 +17124,7 @@
     {
         "name": "1A",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F00569",
             "F00587",
@@ -16558,6 +17151,7 @@
     {
         "name": "1A",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "008286",
             "008147",
@@ -16584,6 +17178,7 @@
     {
         "name": "266",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03795",
             "F03796",
@@ -16597,6 +17192,7 @@
     {
         "name": "166",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03810",
             "F03784",
@@ -16638,6 +17234,7 @@
     {
         "name": "119",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01435",
             "F04153",
@@ -16655,6 +17252,7 @@
     {
         "name": "119",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009715",
             "009716",
@@ -16672,6 +17270,7 @@
     {
         "name": "166",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01435",
             "F04153",
@@ -16716,6 +17315,7 @@
     {
         "name": "266",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03665",
             "F03662",
@@ -16743,6 +17343,7 @@
     {
         "name": "3",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "008206",
             "F02879",
@@ -16780,6 +17381,7 @@
     {
         "name": "3",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01439",
             "F01442",
@@ -16817,6 +17419,7 @@
     {
         "name": "237",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00622",
             "F00613",
@@ -16837,6 +17440,7 @@
     {
         "name": "237",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00545",
             "F00544",
@@ -16858,6 +17462,7 @@
     {
         "name": "137",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00622",
             "F00613",
@@ -16881,6 +17486,7 @@
     {
         "name": "137",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00563",
             "F00561",
@@ -16900,8 +17506,58 @@
         ]
     },
     {
+        "name": "6",
+        "direction": false,
+        "route_type": 3,
+        "stops": [
+            "007887",
+            "F01190",
+            "F01196",
+            "F01202",
+            "F01295",
+            "F01167",
+            "F01113",
+            "F01038",
+            "F01083",
+            "F01029",
+            "F00929",
+            "F00191",
+            "F00197",
+            "F00306",
+            "081565"
+        ]
+    },
+    {
+        "name": "6",
+        "direction": true,
+        "route_type": 3,
+        "stops": [
+            "F00422",
+            "F00309",
+            "F00200",
+            "F00190",
+            "F00146",
+            "F00930",
+            "F00934",
+            "F01084",
+            "F01087",
+            "F01039",
+            "F01114",
+            "F01293",
+            "F01203",
+            "F01198",
+            "F01195",
+            "007888",
+            "F01375",
+            "009179",
+            "F02154",
+            "011319"
+        ]
+    },
+    {
         "name": "901",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00570",
             "F00585",
@@ -16948,6 +17604,7 @@
     {
         "name": "901",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "007897",
             "F02215",
@@ -16994,6 +17651,7 @@
     {
         "name": "918",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01320",
             "F02739",
@@ -17017,6 +17675,7 @@
     {
         "name": "918",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01319",
             "F01327",
@@ -17044,6 +17703,7 @@
     {
         "name": "15",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02535",
             "F02563",
@@ -17074,6 +17734,7 @@
     {
         "name": "15",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01011",
             "F00983",
@@ -17103,6 +17764,7 @@
     {
         "name": "38",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "064085",
             "064087",
@@ -17115,6 +17777,7 @@
     {
         "name": "30",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061351",
             "F01159",
@@ -17158,6 +17821,7 @@
     {
         "name": "30",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009536",
             "F00906",
@@ -17204,6 +17868,7 @@
     {
         "name": "30A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061351",
             "F01159",
@@ -17240,6 +17905,7 @@
     {
         "name": "30A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00717",
             "F00709",
@@ -17277,6 +17943,7 @@
     {
         "name": "230",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061351",
             "F01159",
@@ -17317,6 +17984,7 @@
     {
         "name": "230",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "043481",
             "008842",
@@ -17358,6 +18026,7 @@
     {
         "name": "135",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009358",
             "009338",
@@ -17383,6 +18052,7 @@
     {
         "name": "914",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00722",
             "F00906",
@@ -17453,6 +18123,7 @@
     {
         "name": "914",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "008921",
             "F03626",
@@ -17509,6 +18180,7 @@
     {
         "name": "85E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "038683",
             "F01843",
@@ -17525,6 +18197,7 @@
     {
         "name": "85E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008030",
             "F01831",
@@ -17541,6 +18214,7 @@
     {
         "name": "85",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "038683",
             "F01584",
@@ -17564,6 +18238,7 @@
     {
         "name": "85",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008030",
             "F01623",
@@ -17587,6 +18262,7 @@
     {
         "name": "914A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03929",
             "044126",
@@ -17625,6 +18301,7 @@
     {
         "name": "914A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00805",
             "F00862",
@@ -17646,6 +18323,7 @@
     {
         "name": "158",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "103387",
             "103389",
@@ -17668,6 +18346,7 @@
     {
         "name": "158",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009577",
             "F04383",
@@ -17689,6 +18368,7 @@
     {
         "name": "55",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01376",
             "009042",
@@ -17731,6 +18411,7 @@
     {
         "name": "55",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04648",
             "F04602",
@@ -17780,6 +18461,7 @@
     {
         "name": "909A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01623",
             "F01827",
@@ -17806,6 +18488,7 @@
     {
         "name": "100E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00950",
             "F01012",
@@ -17816,6 +18499,7 @@
     {
         "name": "100E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "089411",
             "089515",
@@ -17826,6 +18510,7 @@
     {
         "name": "914B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01025",
             "F01065",
@@ -17865,6 +18550,7 @@
     {
         "name": "914B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00722",
             "F00906",
@@ -17903,6 +18589,7 @@
     {
         "name": "225",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03175",
             "F03170",
@@ -17922,6 +18609,7 @@
     {
         "name": "225",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02886",
             "F02905",
@@ -17943,6 +18631,7 @@
     {
         "name": "931B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03255",
             "F03252",
@@ -17982,6 +18671,7 @@
     {
         "name": "931B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008942",
             "F01771",
@@ -18000,6 +18690,7 @@
     {
         "name": "141",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "009577",
             "F04383",
@@ -18025,6 +18716,7 @@
     {
         "name": "141",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "061188",
             "062726",
@@ -18050,6 +18742,7 @@
     {
         "name": "72❆",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F01186",
             "F01223",
@@ -18081,6 +18774,7 @@
     {
         "name": "72❆",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02724",
             "F02718",
@@ -18114,6 +18808,7 @@
     {
         "name": "75❆",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "008132",
             "008545",
@@ -18140,6 +18835,7 @@
     {
         "name": "75❆",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F02511",
             "F02649",
@@ -18166,6 +18862,7 @@
     {
         "name": "76❆",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F01164",
             "F01162",
@@ -18190,6 +18887,7 @@
     {
         "name": "76❆",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F02511",
             "F02649",
@@ -18209,6 +18907,7 @@
     {
         "name": "82❆",
         "direction": true,
+        "route_type": 11,
         "stops": [
             "F02758",
             "F02766",
@@ -18233,6 +18932,7 @@
     {
         "name": "82❆",
         "direction": false,
+        "route_type": 11,
         "stops": [
             "F02890",
             "F02902",
@@ -18255,6 +18955,7 @@
     {
         "name": "7❆",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01970",
             "F01969",
@@ -18303,6 +19004,7 @@
     {
         "name": "7❆",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03163",
             "F03158",
@@ -18349,6 +19051,7 @@
     {
         "name": "260",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "056124",
             "007949",
@@ -18366,6 +19069,7 @@
     {
         "name": "160",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009153",
             "F00592",
@@ -18396,6 +19100,7 @@
     {
         "name": "160",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008939",
             "F00435",
@@ -18425,6 +19130,7 @@
     {
         "name": "260",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009153",
             "F00592",
@@ -18446,6 +19152,7 @@
     {
         "name": "950B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03928",
             "F03901",
@@ -18481,6 +19188,7 @@
     {
         "name": "950B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03665",
             "F03662",
@@ -18518,6 +19226,7 @@
     {
         "name": "990A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01752",
             "F01780",
@@ -18573,6 +19282,7 @@
     {
         "name": "990A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "011725",
             "F03594",
@@ -18602,6 +19312,7 @@
     {
         "name": "224",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "043331",
             "F04574",
@@ -18637,6 +19348,7 @@
     {
         "name": "224",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01514",
             "009042",
@@ -18672,6 +19384,7 @@
     {
         "name": "224E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "043331",
             "F04574",
@@ -18699,6 +19412,7 @@
     {
         "name": "224E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01514",
             "009042",
@@ -18726,6 +19440,7 @@
     {
         "name": "5❆",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "048471",
             "F00281",
@@ -18779,6 +19494,7 @@
     {
         "name": "5❆",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03033",
             "F03034",
@@ -18830,6 +19546,7 @@
     {
         "name": "133E❆",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F04507",
             "F04506",
@@ -18876,6 +19593,7 @@
     {
         "name": "30❆",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "061351",
             "F01159",
@@ -18919,6 +19637,7 @@
     {
         "name": "30❆",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "009536",
             "F00906",
@@ -18965,6 +19684,7 @@
     {
         "name": "200E",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F04599",
             "088670",
@@ -18984,6 +19704,7 @@
     {
         "name": "200E",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "038675",
             "F01545",
@@ -19001,6 +19722,7 @@
     {
         "name": "139❆",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02226",
             "F02071",
@@ -19024,6 +19746,7 @@
     {
         "name": "139❆",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F02470",
             "F00023",
@@ -19047,6 +19770,7 @@
     {
         "name": "224❆",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "043331",
             "F04574",
@@ -19082,6 +19806,7 @@
     {
         "name": "224❆",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01514",
             "009042",
@@ -19117,6 +19842,7 @@
     {
         "name": "276E❆",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "008028",
             "009322",
@@ -19140,6 +19866,7 @@
     {
         "name": "276E❆",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03452",
             "103897",
@@ -19178,6 +19905,7 @@
     {
         "name": "117",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F01695",
             "016725",
@@ -19194,6 +19922,7 @@
     {
         "name": "117",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F01800",
             "F01640",
@@ -19208,6 +19937,7 @@
     {
         "name": "916A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00985",
             "F00981",
@@ -19226,6 +19956,7 @@
     {
         "name": "916A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F02464",
             "F02469",
@@ -19247,6 +19978,7 @@
     {
         "name": "243",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "044192",
             "F00458",
@@ -19268,6 +20000,7 @@
     {
         "name": "2❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F01401",
             "F01397",
@@ -19287,6 +20020,7 @@
     {
         "name": "2❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "008455",
             "F00969",
@@ -19306,6 +20040,7 @@
     {
         "name": "42❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01461",
             "F03926",
@@ -19319,6 +20054,7 @@
     {
         "name": "42❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F04039",
             "F04004",
@@ -19332,6 +20068,7 @@
     {
         "name": "14-41❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F00725",
             "F00905",
@@ -19404,6 +20141,7 @@
     {
         "name": "14❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F02615",
             "F01062",
@@ -19435,6 +20173,7 @@
     {
         "name": "14❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F00725",
             "F00905",
@@ -19466,6 +20205,7 @@
     {
         "name": "165",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00133",
             "F00130",
@@ -19477,6 +20217,7 @@
     {
         "name": "165",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00688",
             "F00608",
@@ -19489,6 +20230,7 @@
     {
         "name": "65A",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00132",
             "F00130",
@@ -19503,6 +20245,7 @@
     {
         "name": "65A",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F00119",
             "F00121",
@@ -19517,6 +20260,7 @@
     {
         "name": "65",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00132",
             "F00130",
@@ -19534,6 +20278,7 @@
     {
         "name": "65",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "064215",
             "064214",
@@ -19551,6 +20296,7 @@
     {
         "name": "47❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007884",
             "F01012",
@@ -19578,6 +20324,7 @@
     {
         "name": "47❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F04405",
             "F04397",
@@ -19605,6 +20352,7 @@
     {
         "name": "49❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "007967",
             "F02039",
@@ -19623,6 +20371,7 @@
     {
         "name": "49❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "007884",
             "F01012",
@@ -19641,6 +20390,7 @@
     {
         "name": "19❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "F02040",
             "F02046",
@@ -19670,6 +20420,7 @@
     {
         "name": "19❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F00568",
             "F00590",
@@ -19700,6 +20451,7 @@
     {
         "name": "54",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F03629",
             "F03681",
@@ -19717,6 +20469,7 @@
     {
         "name": "54",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03631",
             "F03888",
@@ -19745,6 +20498,7 @@
     {
         "name": "62A-69❆",
         "direction": false,
+        "route_type": 0,
         "stops": [
             "F01574",
             "F01646",
@@ -19770,6 +20524,7 @@
     {
         "name": "62A-69❆",
         "direction": true,
+        "route_type": 0,
         "stops": [
             "008206",
             "F02879",
@@ -19795,6 +20550,7 @@
     {
         "name": "973B",
         "direction": false,
+        "route_type": 3,
         "stops": [
             "F00950",
             "F01012",
@@ -19832,6 +20588,7 @@
     {
         "name": "973B",
         "direction": true,
+        "route_type": 3,
         "stops": [
             "F03147",
             "F03201",
@@ -19868,6 +20625,7 @@
     {
         "name": "H8",
         "direction": false,
+        "route_type": 109,
         "stops": [
             "19795278",
             "19798281",
@@ -19894,6 +20652,7 @@
     {
         "name": "H8",
         "direction": true,
+        "route_type": 109,
         "stops": [
             "19870325",
             "19869323",
@@ -19920,6 +20679,7 @@
     {
         "name": "H9",
         "direction": false,
+        "route_type": 109,
         "stops": [
             "19795278",
             "19798281",
@@ -19938,6 +20698,7 @@
     {
         "name": "H9",
         "direction": true,
+        "route_type": 109,
         "stops": [
             "19836301",
             "19831299",
@@ -19956,6 +20717,7 @@
     {
         "name": "H6",
         "direction": false,
+        "route_type": 109,
         "stops": [
             "19720237",
             "19729241",
@@ -19983,6 +20745,7 @@
     {
         "name": "H6",
         "direction": true,
+        "route_type": 109,
         "stops": [
             "19786276",
             "19785275",
@@ -20010,6 +20773,7 @@
     {
         "name": "H7",
         "direction": false,
+        "route_type": 109,
         "stops": [
             "09220225",
             "09221226",
@@ -20022,6 +20786,7 @@
     {
         "name": "H7",
         "direction": true,
+        "route_type": 109,
         "stops": [
             "09226543",
             "09225232",
@@ -20034,6 +20799,7 @@
     {
         "name": "H5",
         "direction": false,
+        "route_type": 109,
         "stops": [
             "09001188",
             "09019190",
@@ -20057,6 +20823,7 @@
     {
         "name": "H5",
         "direction": true,
+        "route_type": 109,
         "stops": [
             "09142221",
             "09217220",
