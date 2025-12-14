@@ -21,7 +21,9 @@ or on AMD
 docker compose -f compose-amd.yml up --build
 ```
 
-## Access
+## API :)
 ```
-wget http://localhost:8080/
+wget http://localhost:8080/timetable?route=56
 ```
+
+I've wasted way more time than should on fixing python types...

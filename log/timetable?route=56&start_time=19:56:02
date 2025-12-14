@@ -1,0 +1,58 @@
+[
+  {
+    "stop": "007975",
+    "arrival_time": "19:56:02"
+  },
+  {
+    "stop": "F00346",
+    "arrival_time": "19:57:07"
+  },
+  {
+    "stop": "F00348",
+    "arrival_time": "19:59:16"
+  },
+  {
+    "stop": "F00319",
+    "arrival_time": "20:00:26"
+  },
+  {
+    "stop": "F00317",
+    "arrival_time": "20:01:27"
+  },
+  {
+    "stop": "F00315",
+    "arrival_time": "20:02:55"
+  },
+  {
+    "stop": "F00313",
+    "arrival_time": "20:03:46"
+  },
+  {
+    "stop": "F00430",
+    "arrival_time": "20:05:07"
+  },
+  {
+    "stop": "F00167",
+    "arrival_time": "20:06:07"
+  },
+  {
+    "stop": "F00163",
+    "arrival_time": "20:07:26"
+  },
+  {
+    "stop": "F00409",
+    "arrival_time": "20:08:31"
+  },
+  {
+    "stop": "F00157",
+    "arrival_time": "20:10:00"
+  },
+  {
+    "stop": "F00426",
+    "arrival_time": "20:10:58"
+  },
+  {
+    "stop": "F02461",
+    "arrival_time": "20:11:51"
+  }
+]

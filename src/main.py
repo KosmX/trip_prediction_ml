@@ -14,6 +14,8 @@ with open('/app/data/routes.json', 'r') as f:
     routes_data = json.load(f)
 
 
+# Datetime is missing, but I do not want to fix, because without types, that would take at least 2 hours
+# please, next time use any language with types :(
 def generate_timetable(model: Model, route_name: str, direction: bool, start_time='08:00:00'):
     selected_route = None
     for route in routes_data:
