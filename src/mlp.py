@@ -14,7 +14,7 @@ if device == 'cuda':
     print(torch.cuda.get_device_name(torch.cuda.current_device()))
 
 
-device = 'cpu'
+# device = 'cpu'
 
 
 def sinusoidal_positional_encoding(value: float, embed_dim: int) -> np.ndarray:
@@ -178,23 +178,26 @@ class DurationPredictor(nn.Module):
 
         self.model = nn.Sequential(
             # Layer 1
-            nn.Linear(input_dim, 128),
-            nn.BatchNorm1d(128),
+            nn.Linear(input_dim, 512),
+            nn.BatchNorm1d(512),
             nn.ReLU(),
             nn.Dropout(0.2),
 
             # Layer 2
-            nn.Linear(128, 64),
-            nn.BatchNorm1d(64),
+            nn.Linear(512, 128),
+            nn.BatchNorm1d(128),
             nn.ReLU(),
             nn.Dropout(0.1),
 
             # Layer 3
-            nn.Linear(64, 32),
+            nn.Linear(128, 64),
+            nn.ReLU(),
+            # Layer 4
+            nn.Linear(64, 16),
             nn.ReLU(),
 
             # Output Layer (Scalar regression)
-            nn.Linear(32, 1)
+            nn.Linear(16, 1)
         )
 
     def forward(self, x):
@@ -214,7 +217,7 @@ class MLPModel(Model):
         X_data, y_data, input_dim = prepare_training_data(df, embedding_dict)
 
         dataset = TripDataset(X_data, y_data)
-        dataloader = DataLoader(dataset, batch_size=64, shuffle=True)
+        dataloader = DataLoader(dataset, batch_size=64 * 32, shuffle=True)
 
         model = DurationPredictor(input_dim=input_dim).to(device)
         self.model = model
@@ -227,7 +230,24 @@ class MLPModel(Model):
         # --- 4. TRAINING LOOP ---
         print(f"Starting training with input dimension: {input_dim}")
 
-        epochs = 40  # ??? probably waaaaaaay more
+        epochs = 20
+
+        # Test overfitting
+        test_model = DurationPredictor(input_dim=input_dim).to(device)
+        test_optimizer = torch.optim.Adam(test_model.parameters(), lr=0.01)
+        test_criterion = nn.MSELoss()
+        test_data_X, test_data_Y = next(iter(dataloader))
+        test_data_X = test_data_X.to(device)
+        test_data_Y = test_data_Y.to(device)
+        for _overfit_epoch in range(10000):
+            test_optimizer.zero_grad()
+            overfit_pred = test_model(test_data_X)
+            overfit_loss = test_criterion(overfit_pred, test_data_Y)
+            overfit_loss.backward()
+            test_optimizer.step()
+            if _overfit_epoch % 100 == 0:
+                print(f"Overfit epoch {_overfit_epoch}, loss: {overfit_loss.item():.6f}")
+        print(f"Overfit test loss (should be very low): {overfit_loss.item():.6f}")
 
         model.train()
         for epoch in range(epochs):
@@ -256,11 +276,11 @@ class MLPModel(Model):
                 # RMSE
                 with torch.no_grad():
                     model.eval()
-                    test_predictions = model(test_tensor)
-                    rmse = torch.sqrt(criterion(test_predictions, torch.tensor(
-                        test['duration'].values.astype(np.float32).reshape(-1, 1)).to(device)))
+                    test_predictions = model(test_tensor).to('cpu')
+                    rmse = ((test['duration'] - test_predictions.numpy().squeeze()) ** 2).mean() ** 0.5
                     print(f"Test RMSE after epoch {epoch + 1}: {rmse.item():.4f}")
                     model.train()
+        model.eval()
 
     def predict(self, df: pd.DataFrame) -> pd.DataFrame:
         model: DurationPredictor | None = self.model
@@ -274,7 +294,7 @@ class MLPModel(Model):
         with torch.no_grad():
             prediction = model(input_tensor).to('cpu')
             # Squeeze to get rid of the extra dimensions, and convert to standard Python float
-            return prediction.squeeze().item()
+            return df.assign(predicted_duration=prediction.numpy().squeeze())
 
 
 if __name__ == '__main__':

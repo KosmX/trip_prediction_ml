@@ -1,0 +1,16 @@
+name: Dev env XDNA
+
+services:
+  pyenv:
+    build:
+      context: .
+      dockerfile: nv.Dockerfile
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    ports:
+      - "8080:8080"

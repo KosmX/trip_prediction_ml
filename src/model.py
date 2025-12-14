@@ -12,13 +12,12 @@ class Model(ABC):
     def predict(self, data) -> pd.DataFrame:
         pass
 
-    def predict_on(self, prev_stop: str, next_stop: str, current_time: pd.Timestamp, route_type: int, vehicle_type: int = 0) -> float:
+    def predict_on(self, prev_stop: str, next_stop: str, current_time: str, vehicle_type: int) -> float:
         input_data = {
-            'prev_stop': [prev_stop],
-            'next_stop': [next_stop],
-            'current_time': [current_time],
-            'route_type': [route_type],
-            'vehicle_type': [vehicle_type]
+            'from': [prev_stop],
+            'to': [next_stop],
+            'vehicle_type': [vehicle_type],
+            'time': [current_time]
         }
         input_df = pd.DataFrame(input_data)
         prediction = self.predict(input_df)

@@ -20,10 +20,9 @@ class BaselineModel(Model):
             .rename(columns={'duration': 'avg_duration'})
         )
 
-    def predict(self, data: pd.DataFrame) -> pd.DataFrame:
+    def predict(self, df: pd.DataFrame) -> pd.DataFrame:
         # merge input data with avg_durations to get predictions
-        predictions = pd.merge(
-            data,
+        predictions = df.merge(
             self.avg_durations,
             on=['from', 'to'],
             how='left'

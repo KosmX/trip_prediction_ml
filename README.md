@@ -13,3 +13,15 @@ I do not think it will give problematic result on whole lines, as the average is
 However RMSE (MAE) will be a bit more noisy than optimal.
 
 ## Run
+```shell
+docker compose -f compose-nv.yml up --build
+```
+or on AMD
+```shell
+docker compose -f compose-amd.yml up --build
+```
+
+## Access
+```
+wget http://localhost:8080/
+```

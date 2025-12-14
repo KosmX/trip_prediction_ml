@@ -8,7 +8,7 @@ import pandas as pd
 from baseline import BaselineModel
 from mlp import MLPModel
 from model import Model
-from src.data import DataLoader
+from data import DataLoader
 
 with open('/app/data/routes.json', 'r') as f:
     routes_data = json.load(f)
@@ -44,7 +44,7 @@ def generate_timetable(model: Model, route_name: str, direction: bool, start_tim
         prev = stops[i - 1]
         curr = stops[i]
 
-        duration_seconds = model.predict_on(prev, curr, current_time, selected_route['route_type'])
+        duration_seconds = model.predict_on(prev, curr, str(current_time), selected_route['route_type'])['predicted_duration']
         # Add duration to current_time
         current_time += pd.to_timedelta(duration_seconds, unit='s')
 
@@ -73,14 +73,30 @@ if __name__ == '__main__':
     rmse = ((test['duration'] - test_predictions['predicted_duration']) ** 2).mean() ** 0.5
     print(f"Baseline RMSE: {rmse}")
 
+    print("------------------------")
+    print("Test timetable of 56 route (with baseline):")
+    timetable_56 = generate_timetable(baseline, '56', True, '08:00:00')
+    print(timetable_56)
+    print("------------------------")
+
     mlp = MLPModel()
     mlp.train(train, test)
+    print("MLP model trained.")
     test_predictions_mlp = mlp.predict(X_test)
     rmse = ((test['duration'] - test_predictions_mlp['predicted_duration']) ** 2).mean() ** 0.5
     print(f"MLP RMSE: {rmse}")
 
+
+    print("------------------------")
+    print("Test timetable of 56 route (with MLP):")
+    timetable_56 = generate_timetable(mlp, '56', True, '08:00:00')
+    print(timetable_56)
+    print("------------------------")
+
+
     models: list[Model] = [mlp, baseline]
 
+    print("All good :), starting server...")
 
     class Server(http.server.SimpleHTTPRequestHandler):
 

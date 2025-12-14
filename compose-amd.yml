@@ -1,0 +1,12 @@
+name: Dev env XDNA
+
+services:
+  pyenv:
+    build:
+      context: .
+      dockerfile: amd.Dockerfile
+    devices:
+      - /dev/dri
+      - /dev/kfd
+    ports:
+      - "8080:8080"
