@@ -58,7 +58,11 @@ object Routes {
         data.asSequence()
             .filter { it.value.name.isNotBlank() }
             .forEach { (tripId, route) ->
-                things.putIfAbsent(RouteId(route.name, route.direction, route.type), route.stops)
+                val id = RouteId(route.name, route.direction, route.type)
+                val old = things[id]
+                if (old == null || old.size < route.stops.size) {
+                    things.putIfAbsent(RouteId(route.name, route.direction, route.type), route.stops)
+                }
             }
 
         val routes =
