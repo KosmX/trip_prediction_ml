@@ -110,6 +110,7 @@ if __name__ == '__main__':
                 route_name = query_components.get('route', [None])[0]
                 direction = query_components.get('direction', ['0'])[0] == '1'
                 start_time = query_components.get('start_time', ['08:00:00'])[0]
+                model_select = int(query_components.get('model', ['0'])[0])
 
                 if route_name is None:
                     self.send_response(400)
@@ -117,7 +118,7 @@ if __name__ == '__main__':
                     self.wfile.write(b'Missing route parameter')
                     return
 
-                timetable = generate_timetable(models[0], route_name, direction, start_time)
+                timetable = generate_timetable(models[model_select], route_name, direction, start_time)
 
                 if timetable is None:
                     self.send_response(404)
